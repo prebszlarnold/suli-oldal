@@ -10,7 +10,7 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background: url('hattterkep.jpg') no-repeat center center fixed  ;
+    background: url('assets/hattterkep.jpg') no-repeat center center fixed  ;
     background-size: cover;
     
 }

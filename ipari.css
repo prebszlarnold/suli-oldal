@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 100%;
+}
+
+body {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: url('hattterkep.jpg') no-repeat center center fixed  ;
+    background-size: cover;
+    
+}
+
+
+
+#profile-card {
+    width: 600px;
+    max-width: 1000px;
+    background-color: hsla(42, 44%, 80%, 0.829);
+    border-radius: 4px;
+    box-shadow: hsla(0, 0%, 0%, .8) 10px 10px 80px;
+}
+a:active{
+   color: red;
+}
+#head, #links {
+    text-align: center;
+    
+}
+
+#head, #content {
+    width: 90%;
+    margin: 0 auto;
+}
+
+img {
+    width: 150px;
+    height: 150px;
+    padding: 1px;
+}
+
+img:hover {
+    transform: scale(1.1);
+    filter: grayscale(20%);
+}
+
+#fejlec {
+    margin-top: -20px;
+}
+
+ul {
+    padding-top: 20px;
+    list-style-type: none;
+}
+.elerhet
+{
+    display: inline;
+}
+#e-mail{
+    color: black;
+    text-decoration: none;
+}
+
+#head, #szakok {
+    margin-bottom: 10%;
+}
+
+#content {
+    padding: 5% 10%;
+    border-top: 1px solid rgba(77, 77, 77, 0.8);
+}
